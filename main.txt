@@ -1,4 +1,4 @@
 System Status: Online
 Version: 1.0
-Login: Enable
+Login: Enabled  <-- (تصحيح الخطأ)
 Feature: Dark Mode (In Progress)
