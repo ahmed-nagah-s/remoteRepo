@@ -1,3 +1,4 @@
 Line one in file.txt
 Line two in file.txt
 Before remoting GitHub
+After remoting GitHub
