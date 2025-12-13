@@ -1,0 +1,14 @@
+name: Test git hub actions
+on: push
+
+jobs:
+  MyJobs:
+  runs-on: ubunto latest
+ 
+    steps: 
+    - name: print the triggering event
+      run: echo "The job was triggered by ${{github.event_name}}."
+    - name: print the OS of the runner
+      run: echo "The os is ${{runner.os}} server."
+    - name: checkout repo actions
+      uses: actions/checkout@v4
